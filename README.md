@@ -22,7 +22,11 @@ I am unsure since this code is 4 years old if all of the dependencies still exis
 Here is the research paper that this code connects to: https://www.vldb.org/pvldb/vol16/p420-geng.pdf -- Computing Rule-Based Explanations by Leveraging Counterfactuals.
 
 
-Previous research on the GeCo engine was done in 2021. https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf -- GeCo: Quality Counterfactual Explanations in Real Time. The connected repository can be found here https://github.com/mjschleich/GeCo.jl>MJSchliech/GeCo.jl . There is also a video presentation about this paper on YouTube: https://www.youtube.com/watch?v=19BMj3cjBgU --Research 2242 | VLDB 2021
+Previous research on the GeCo engine was done in 2021. https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf -- GeCo: Quality Counterfactual Explanations in Real Time. 
+
+The connected repository can be found here https://github.com/mjschleich/GeCo.jl>MJSchliech/GeCo.jl. 
+
+There is also a video presentation about this paper on YouTube: https://www.youtube.com/watch?v=19BMj3cjBgU --Research 2242 | VLDB 2021
 
 
 <H3> Here is some information about the researchers: </H3>
