@@ -20,7 +20,7 @@ I am unsure since this code is 4 years old if all of the dependencies still exis
 
 <H2> MORE INFORMATION </H2>
 <H3>Computing Rule-Based Explanations by Leveraging Counterfactuals</H3>
-Here is the research paper that this code connects to: https://www.vldb.org/pvldb/vol16/p420-geng.pdf -- Computing Rule-Based Explanations by Leveraging Counterfactuals.
+<ul><li>Here is the research paper that this code connects to: https://www.vldb.org/pvldb/vol16/p420-geng.pdf -- Computing Rule-Based Explanations by Leveraging Counterfactuals.</li></ul>
 
 <H3>GeCo: Quality Counterfactual Explanations in Real Time</H3>
 <ul><li>Previous research on the GeCo engine was done in 2021. https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf -- GeCo: Quality Counterfactual Explanations in Real Time. </li>
