@@ -13,6 +13,25 @@ I had lots of errors with anything related to Python.
 I decided to replace them with the MLJ and MLJScientificTypes.
 I still have a lot of work to do since GeCo and GeneticCF manage data less strictly, and MLJ requires strict rules.
 
+<H2> CURRENT PROGRESS </H2>
+
+I am currently trying to see if the code is better in Julia v1.6, v1.7, and possibly v1.8.
+I am unsure since this code is 4 years old if all of the dependencies still exist and function the same way they did in 2021 and 2022.
+
+<H2> MORE INFORMATION </H2>
+Here is the research paper that this code connects to: <href a=https://www.vldb.org/pvldb/vol16/p420-geng.pdf>Computing Rule-Based Explanations by Leveraging Counterfactuals</href>
+
+Previous research on the GeCo engine was done in 2021. <href a=https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf>GeCo: Quality Counterfactual Explanations in Real Time</href>. The connected repository can be found here <href a=https://github.com/mjschleich/GeCo.jl>MJSchliech/GeCo.jl</href>. There is also a video presentation about this paper on YouTube: <href a=https://www.youtube.com/watch?v=19BMj3cjBgU> Research 2242 | VLDB 2021</href>
+
+Here is some information about the researchers:
+
+Yihong Zhang (张轶泓) Portfolio Website: <href a=https://effect.systems/>Effect.Systems</href>
+Dan Suciu Portfolio Website: <href a=https://homes.cs.washington.edu/~suciu/>University of Washington Faculty Page</href>
+Zixuan (Gibbs) Geng LinkedIn: <href a=https://www.linkedin.com/in/zixuan-geng/></href>
+Maximilian-Joël Schleich Portfolio Website: <href a=https://mjschleich.github.io/></href>
+
+
+
 <H2> INITALIZATION </H2>
 
 ```PowerShell
