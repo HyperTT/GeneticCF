@@ -1,6 +1,6 @@
 # GeneticCF: Using Counterfactual Explanations in Generating Rule-based Explanations
 
-To run GeneticCF, you need to have Julia installed ([link](https://julialang.org/downloads/)). Then you can run the following commands to load the package GeCo, which we used as the underneath counterfactual explanation system.
+To run GeneticCF, you need to have Julia installed ([link](https://julialang.org/downloads/)). Then you can run the following commands to load the package GeCo, which we used as the underlying counterfactual explanation system.
 
 Please open up the Command Prompt in the repository directory
 
@@ -13,7 +13,7 @@ I had lots of errors with anything related to Python.
 I decided to replace them with the MLJ and MLJScientificTypes.
 I still have a lot of work to do since GeCo and GeneticCF manage data less strictly, and MLJ requires strict rules.
 
-<H2> COMMANDS TO RUN CODE </H2>
+<H2> INITALIZATION </H2>
 
 ```PowerShell
   juliaup add 1.7.3 
@@ -26,19 +26,33 @@ pkg> add DataFrames@0.22.1 GR@0.72.10 Plots@1.38.12 StatsPlots@0.15.6 Clustering
 ```
 
 For patching dependencies to make them compatible with older versions
+
 ```Julia
 if !isdefined(Base, :Returns)
     @eval Base Returns(value) = (args...; kwargs...) -> value
 end
 ```
+
 When loading files, dependencies may still need to be added
-To load a specific folder, you can use the command `Pkg.activate(string source)` function
+To load a specific folder, you can use the command `Pkg.activate(string source)` function:
+For example, here is how you would open up the GeCo folder through Julia
+
 ```Julia
 using Pkg; Pkg.activate("./GeCo")
 using GeCo
-using Pkg; Pkg.activate(".") # this is the main repository folder
-include("src/GeneticCF.jl") 
 ```
+
+In this example, you can open up GeneticCF
+
+```Julia
+using Pkg; Pkg.activate(".") # this is the main repository folder
+include("src/GeneticCF.jl")
+using .GeneticCF
+```
+
+When initializing documents, you will need to traverse between these two folders
+
+<H2> LOADING SCRIPTS </H2>
 
 We provide scripts to load the data and model. For instance:
 ```Julia
@@ -78,3 +92,5 @@ explanations = generate_rules(
     plaf
 )
 ```
+
+When these codes are generated properly, they produce nice graphs.
