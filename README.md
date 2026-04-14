@@ -27,6 +27,7 @@ Previous research on the GeCo engine was done in 2021. https://www.vldb.org/pvld
 
 <H3> Here is some information about the researchers: </H3>
 
+
 Yihong Zhang (张轶泓) Portfolio Website: https://effect.systems/
 
 Dan Suciu Portfolio Website: https://homes.cs.washington.edu/~suciu/
