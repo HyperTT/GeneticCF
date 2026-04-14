@@ -2,6 +2,27 @@
 
 To run GeneticCF, you need to have Julia installed ([link](https://julialang.org/downloads/)). Then you can run the following commands to load the package GeCo, which we used as the underneath counterfactual explanation system.
 
+Please open up the Command Prompt in the repository directory
+
+Installing 1.6 and 1.7 versions for this outdated codebase (2022 - 4 years ago)
+You can install different versions of Julia using the Juliaup command
+```PowerShell
+  juliaup add 1.7.3 
+  juliaup default 1.7.3
+```
+Install dependencies that work together
+
+```Julia
+pkg> add DataFrames@0.22.1 GR@0.72.10 Plots@1.38.12 StatsPlots@0.15.6 Clustering@0.14.2 NearestNeighbors@0.4.13
+```
+
+For patching dependencies to make them compatible with older bersions
+```Julia
+if !isdefined(Base, :Returns)
+    @eval Base Returns(value) = (args...; kwargs...) -> value
+end
+```
+
 ```Julia
 using Pkg; Pkg.activate("./GeCo")
 using GeCo
