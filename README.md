@@ -6,6 +6,14 @@ Please open up the Command Prompt in the repository directory
 
 Installing 1.6 and 1.7 versions for this outdated codebase (2022 - 4 years ago)
 You can install different versions of Julia using the Juliaup command
+
+<H2> REVISIONS </H2>
+This version is slightly different than the original creators. When trying to work with dependencies.
+I had lots of errors with anything related to Python.
+I decided to replace them with the MLJ and MLJScientificTypes.
+I still have a lot of work to do since GeCo and GeneticCF manage data less strictly, and MLJ requires strict rules.
+
+<H2> COMMANDS TO RUN CODE </H2>
 ```PowerShell
   juliaup add 1.7.3 
   juliaup default 1.7.3
@@ -23,7 +31,7 @@ if !isdefined(Base, :Returns)
 end
 ```
 When loading files, dependencies may still need to be added
-To load a specific folder you can use the Pkg.activate(string source) function
+To load a specific folder, you can use the command `Pkg.activate(string source)` function
 ```Julia
 using Pkg; Pkg.activate("./GeCo")
 using GeCo
