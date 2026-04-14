@@ -18,6 +18,9 @@ I still have a lot of work to do since GeCo and GeneticCF manage data less stric
 I am currently trying to see if the code is better in Julia v1.6, v1.7, and possibly v1.8.
 I am unsure since this code is 4 years old if all of the dependencies still exist and function the same way they did in 2021 and 2022.
 
+<H3> PLANS </H3>
+I may consider converting the files to a different language since I am done with julia. https://github.com/JuliaLang/PackageCompiler.jl
+
 <H2> MORE INFORMATION </H2>
 <H3>Computing Rule-Based Explanations by Leveraging Counterfactuals</H3>
 <ul><li>Here is the research paper that this code connects to: https://www.vldb.org/pvldb/vol16/p420-geng.pdf -- Computing Rule-Based Explanations by Leveraging Counterfactuals.</li></ul>
