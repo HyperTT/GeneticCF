@@ -16,16 +16,19 @@ Install dependencies that work together
 pkg> add DataFrames@0.22.1 GR@0.72.10 Plots@1.38.12 StatsPlots@0.15.6 Clustering@0.14.2 NearestNeighbors@0.4.13
 ```
 
-For patching dependencies to make them compatible with older bersions
+For patching dependencies to make them compatible with older versions
 ```Julia
 if !isdefined(Base, :Returns)
     @eval Base Returns(value) = (args...; kwargs...) -> value
 end
 ```
-
+When loading files, dependencies may still need to be added
+To load a specific folder you can use the Pkg.activate(string source) function
 ```Julia
 using Pkg; Pkg.activate("./GeCo")
 using GeCo
+using Pkg; Pkg.activate(".") # this is the main repository folder
+include("src/GeneticCF.jl") 
 ```
 
 We provide scripts to load the data and model. For instance:
@@ -54,4 +57,15 @@ To print out the top rule:
 ```Julia
 explanation = explanations[1]
 print_rule(orig_instance, explanation)
+```
+
+Here is another format you can use for explanation commands
+```Julia
+
+explanations = generate_rules(
+    orig_instance,
+    data,
+    predict_fn,
+    plaf
+)
 ```
