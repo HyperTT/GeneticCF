@@ -1,0 +1,7 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
+MLJLinearModels = "6ee0df7b-362f-4a72-a706-9e79364fb692"
+MLJScientificTypes = "2e2323e0-db8b-457b-ae0d-bdfb3bc63afd"
+ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
