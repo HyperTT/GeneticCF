@@ -24,24 +24,18 @@ Here is the research paper that this code connects to: https://www.vldb.org/pvld
 
 <H3>GeCo: Quality Counterfactual Explanations in Real Time</H3>
 Previous research on the GeCo engine was done in 2021. https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf -- GeCo: Quality Counterfactual Explanations in Real Time. 
-
 The connected repository can be found here https://github.com/mjschleich/GeCo.jl>MJSchliech/GeCo.jl. 
-
 There is also a video presentation about this paper on YouTube: https://www.youtube.com/watch?v=19BMj3cjBgU --Research 2242 | VLDB 2021
 
 
 <H3> Here is some information about the researchers: </H3>
 
 
-Yihong Zhang (张轶泓) Portfolio Website: https://effect.systems/
-
-Dan Suciu Portfolio Website: https://homes.cs.washington.edu/~suciu/
-
-Zixuan (Gibbs) Geng LinkedIn: https://www.linkedin.com/in/zixuan-geng/
-
-Maximilian-Joël Schleich Portfolio Website: https://mjschleich.github.io/
-
-
+<ul> <li>Yihong Zhang (张轶泓) Portfolio Website: https://effect.systems/</li>
+<li>Dan Suciu Portfolio Website: https://homes.cs.washington.edu/~suciu/</li>
+<li>Zixuan (Gibbs) Geng LinkedIn: https://www.linkedin.com/in/zixuan-geng/</li>
+<li>Maximilian-Joël Schleich Portfolio Website: https://mjschleich.github.io/</li>
+</ul>
 
 <H2> INITALIZATION </H2>
 
