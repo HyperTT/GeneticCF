@@ -25,7 +25,8 @@ Previous research on the GeCo engine was done in 2021. <href a=https://www.vldb.
 
 Here is some information about the researchers:
 
-Yihong Zhang (张轶泓) Portfolio Website: <href a=https://effect.systems/>Effect.Systems</href>
+Yihong Zhang (张轶泓) Portfolio Website: https://effect.systems/
+
 Dan Suciu Portfolio Website: <href a=https://homes.cs.washington.edu/~suciu/>University of Washington Faculty Page</href>
 Zixuan (Gibbs) Geng LinkedIn: <href a=https://www.linkedin.com/in/zixuan-geng/></href>
 Maximilian-Joël Schleich Portfolio Website: <href a=https://mjschleich.github.io/></href>
