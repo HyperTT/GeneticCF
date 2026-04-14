@@ -19,7 +19,7 @@ I still have a lot of work to do since GeCo and GeneticCF manage data less stric
   juliaup add 1.7.3 
   juliaup default 1.7.3
 ```
-Install dependencies that work together
+Install dependencies that work together. To open up the package editor, open Julia and then click `]`
 
 ```Julia
 pkg> add DataFrames@0.22.1 GR@0.72.10 Plots@1.38.12 StatsPlots@0.15.6 Clustering@0.14.2 NearestNeighbors@0.4.13
