@@ -19,17 +19,19 @@ I am currently trying to see if the code is better in Julia v1.6, v1.7, and poss
 I am unsure since this code is 4 years old if all of the dependencies still exist and function the same way they did in 2021 and 2022.
 
 <H2> MORE INFORMATION </H2>
-Here is the research paper that this code connects to: <href a=https://www.vldb.org/pvldb/vol16/p420-geng.pdf>Computing Rule-Based Explanations by Leveraging Counterfactuals</href>
+Here is the research paper that this code connects to: https://www.vldb.org/pvldb/vol16/p420-geng.pdf -- Computing Rule-Based Explanations by Leveraging Counterfactuals
 
-Previous research on the GeCo engine was done in 2021. <href a=https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf>GeCo: Quality Counterfactual Explanations in Real Time</href>. The connected repository can be found here <href a=https://github.com/mjschleich/GeCo.jl>MJSchliech/GeCo.jl</href>. There is also a video presentation about this paper on YouTube: <href a=https://www.youtube.com/watch?v=19BMj3cjBgU> Research 2242 | VLDB 2021</href>
+Previous research on the GeCo engine was done in 2021. https://www.vldb.org/pvldb/vol14/p1681-schleich.pdf -- GeCo: Quality Counterfactual Explanations in Real Time. The connected repository can be found here https://github.com/mjschleich/GeCo.jl>MJSchliech/GeCo.jl . There is also a video presentation about this paper on YouTube: https://www.youtube.com/watch?v=19BMj3cjBgU --Research 2242 | VLDB 2021
 
 Here is some information about the researchers:
 
 Yihong Zhang (张轶泓) Portfolio Website: https://effect.systems/
 
-Dan Suciu Portfolio Website: <href a=https://homes.cs.washington.edu/~suciu/>University of Washington Faculty Page</href>
-Zixuan (Gibbs) Geng LinkedIn: <href a=https://www.linkedin.com/in/zixuan-geng/></href>
-Maximilian-Joël Schleich Portfolio Website: <href a=https://mjschleich.github.io/></href>
+Dan Suciu Portfolio Website: https://homes.cs.washington.edu/~suciu/
+
+Zixuan (Gibbs) Geng LinkedIn: https://www.linkedin.com/in/zixuan-geng/
+
+Maximilian-Joël Schleich Portfolio Website: https://mjschleich.github.io/
 
 
 
